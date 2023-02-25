@@ -19,7 +19,7 @@ jobs:
         id: create_tag
         uses: InfraWay/gh-create-docker-tag@v3.2
         with:
-          registry-name: "mazahaca/${{ github.repository }}"
+          registry-name: "mazahaca/nestjs-currency-converter"
       - name: Login to Docker Registry
         uses: docker/login-action@v2
         with:
