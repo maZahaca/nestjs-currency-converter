@@ -17,5 +17,8 @@ COPY . ./
 # Creates a "dist" folder with the production build
 RUN npm run build
 
+# keep just prod dependencies
+RUN npm install --omit=dev --ignore-scripts
+
 # Start the server using the production build
 CMD [ "node", "dist/main.js" ]
