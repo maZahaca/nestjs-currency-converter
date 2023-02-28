@@ -1,11 +1,11 @@
 # nestjs-currency-converter
 
 ## Overview
-This is a simple multi-provider currency converter written in NestJS.
+This is a simple multi-provider currency converter written in TypeScript with [NestJS](https://nestjs.com).
 
-It uses Github Actions to build a Docker image and push it into docker hub.
+It uses [Github Actions](https://github.com/features/actions) to build a Docker image and push it into docker hub.
 
-It can be deployed into AWS Cloud with Terraform from `./infra/terraform`.
+It can be deployed into AWS Cloud with [Terraform](https://www.terraform.io) from `./infra/terraform`.
 
 ## Development
 
